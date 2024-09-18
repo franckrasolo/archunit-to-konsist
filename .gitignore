@@ -1,0 +1,18 @@
+.DS_Store
+/.direnv/
+/.idea/
+
+# gradle
+/.gradle/
+build/
+
+# language servers
+/.classpath
+/.kotlin/
+/.project
+/.settings/
+/bin/
+/kls_database.db
+
+# mermaid + chromium
+/node_modules/
