@@ -16,3 +16,4 @@ build/
 
 # mermaid + chromium
 /node_modules/
+/package*.json
