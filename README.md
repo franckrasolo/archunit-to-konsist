@@ -30,14 +30,14 @@ when implementing rules of the _Ports & Adapters_ architectural pattern.
   _Separating Business Logic From Infrastructure With Ports and Adapters_
 - [Hexagonal Architecture Explained](https://www.arhohuttunen.com/hexagonal-architecture/)
 
-![Medium](https://img.shields.io/badge/Medium-1A1A1A.svg?style=for-the-adge&logo=Medium&logoColor=white)
+[![Medium](https://img.shields.io/badge/Medium-1A1A1A.svg?style=for-the-adge&logo=Medium&logoColor=white)](#additional-resources)
 
 - [ArchUnit vs. Konsist. Why Did We Need Another Kotlin "Linter"? – Igor Wojda](https://proandroiddev.com/archunit-vs-konsist-why-did-we-need-another-linter-972c4ff2622d)
 - [ArchUnit vs Konsist in Android (Kotlin-oriented) codebase. A comparison of hidden implementation checks. – Bartek Twaróg](https://medium.com/the-house-of-code/archunit-vs-konsist-in-android-kotlin-oriented-codebase-b72c6c698b0b)
 - [Protect Kotlin Project Architecture Using Konsist – Igor Wojda](https://proandroiddev.com/protect-kotlin-project-architecture-using-konsist-3bfbe1ad0eea)
 - [Stop Debating in Code Reviews. Start Enforcing with Lint Rules – Stelios Frantzeskakis](https://proandroiddev.com/stop-debating-in-code-reviews-start-enforcing-with-lint-rules-6632c907ea94)
 
-![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](#additional-resources)
 
 - [A Tour Through Konsist with Igor Wojda – Dave Leeds](https://youtu.be/AlYTvzwZOc4)
 - [Harmonizing Kotlin codebases with Konsist – Natalia Peterwas, Igor Wojda at KotlinConf 2024](https://youtu.be/3qbKYSI1u1k)
