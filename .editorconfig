@@ -169,9 +169,9 @@ ij_markdown_insert_quote_arrows_on_wrap = true
 ij_markdown_format_tables = false
 
 # Tabs and Indents
-tab_width = 2
-indent_size = 2
-ij_continuation_indent_size = 2
+ij_markdown_tab_width = 2
+ij_markdown_indent_size = 2
+ij_markdown_continuation_indent_size = 2
 ij_markdown_keep_indents_on_empty_lines = true
 
 # Blank Lines
