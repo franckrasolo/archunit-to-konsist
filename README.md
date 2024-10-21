@@ -26,6 +26,7 @@ when implementing rules of the _Ports & Adapters_ architectural pattern.
 
 ## Additional Resources
 
+- [Design Accelerator: Ports and Adapters Architecture (Part 1) – Vaughn Vernon](https://youtu.be/TC4e0hokDB8)
 - [What's Hexagonal Architecture?](https://medium.com/@luishrsoares/whats-hexagonal-architecture-6da22d4ab600)
   _Separating Business Logic From Infrastructure With Ports and Adapters_
 - [Hexagonal Architecture Explained](https://www.arhohuttunen.com/hexagonal-architecture/)
