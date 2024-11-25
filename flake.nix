@@ -14,6 +14,7 @@
             direnv
             just
             temurin-bin-21
+            tokei
           ];
 
           shellHook = ''

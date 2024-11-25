@@ -5,6 +5,10 @@ _targets:
 @update-flake:
   nix flake update --commit-lock-file --commit-lockfile-summary "update Nix flake inputs"
 
+# prints repo statistics
+@stats:
+  tokei
+
 # upgrade dependencies across all Gradle projects
 @versions:
   ./gradlew --no-configuration-cache refreshVersionsMigrate --mode=VersionsPropertiesOnly && ./gradlew refreshVersions
