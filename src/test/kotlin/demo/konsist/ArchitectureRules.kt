@@ -1,7 +1,7 @@
 package demo.konsist
 
 import com.lemonappdev.konsist.api.Konsist
-import com.lemonappdev.konsist.api.architecture.DependencyRules
+import com.lemonappdev.konsist.api.architecture.LayerDependencies
 import com.lemonappdev.konsist.api.architecture.KoArchitectureCreator.assertArchitecture
 import com.lemonappdev.konsist.api.architecture.Layer
 import demo.ArchitectureRules
@@ -9,12 +9,12 @@ import org.junit.jupiter.api.Test
 
 interface ArchitectureRules : ArchitectureRules {
 
-    private val appLayer get() = Layer("app", "$basePackage.app..")
-    private val domainLayer get() = Layer("domain", "$basePackage.domain..")
-    private val modelLayer get() = Layer("model", "$basePackage.domain.model..")
-    private val portsLayer get() = Layer("ports", "$basePackage.domain.ports..")
-    private val hubsLayer get() = Layer("hubs", "$basePackage.domain.hubs..")
-    private val adaptersLayer get() = Layer("adapters", "$basePackage.infra.adapters..")
+    val appLayer: Layer
+    val domainLayer: Layer
+    val modelLayer: Layer
+    val portsLayer: Layer
+    val hubsLayer: Layer
+    val adaptersLayer: Layer
 
     @Test
     override fun `domain model members do not have outgoing dependencies`() =
@@ -52,6 +52,6 @@ interface ArchitectureRules : ArchitectureRules {
             appLayer.doesNotDependOn(adaptersLayer, portsLayer)
         }
 
-    private fun rules(dependencyRules: DependencyRules.() -> Unit) =
+    private fun rules(dependencyRules: LayerDependencies.() -> Unit) =
         Konsist.scopeFromProduction().assertArchitecture(dependencyRules)
 }
