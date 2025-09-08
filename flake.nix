@@ -8,7 +8,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in with pkgs; {
         devShells.default = pkgs.mkShell {
-          buildInputs = [ nodejs_20 ];
+          buildInputs = [ nodejs_24 ];
 
           packages = [
             direnv
