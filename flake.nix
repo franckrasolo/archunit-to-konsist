@@ -13,7 +13,7 @@
           packages = [
             direnv
             just
-            temurin-bin-21
+            temurin-bin-25
             tokei
           ];
 
