@@ -19,7 +19,7 @@
 
           shellHook = ''
             # health checks for Nix flake inputs
-            nix run "github:DeterminateSystems/flake-checker"
+            nix run "github:DeterminateSystems/flake-checker/v0.2.8"
 
             npm install @mermaid-js/mermaid-cli
             export PATH=$(pwd)/node_modules/.bin:$PATH
