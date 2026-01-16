@@ -9,8 +9,8 @@ plugins {
 }
 
 tasks.wrapper {
-    gradleVersion = "9.2.1"
-    distributionSha256Sum = "f86344275d1b194688dd330abf9f6f2344cd02872ffee035f2d1ea2fd60cf7f3"
+    gradleVersion = "9.3.0"
+    distributionSha256Sum = "046f36af261f2c6ed09eef06bf25b93d1f20d5220991bb8a3f08fd5fb6f6629a"
     distributionType = Wrapper.DistributionType.ALL
 }
 
@@ -57,11 +57,11 @@ repositories {
 dependencies {
     implementation(Kotlin.stdlib)
 
-    testApi(platform(Testing.junit.bom))
-    testApi(Testing.junit.jupiter.api)
-    testApi(Testing.kotest.assertions.core)
-    testApi("com.tngtech.archunit:archunit-junit5:_")
-    testApi("com.lemonappdev:konsist:_")
+    testImplementation(platform(Testing.junit.bom))
+    testImplementation(Testing.junit.jupiter.api)
+    testImplementation(Testing.kotest.assertions.core)
+    testImplementation("com.tngtech.archunit:archunit-junit5:_")
+    testImplementation("com.lemonappdev:konsist:_")
 
     testRuntimeOnly(Testing.junit.jupiter.engine)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:_")
