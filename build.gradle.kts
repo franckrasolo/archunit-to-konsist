@@ -1,6 +1,6 @@
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_25
 import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
@@ -16,7 +16,7 @@ tasks.wrapper {
 
 kotlin {
     jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
         vendor.set(JvmVendorSpec.ADOPTIUM)
     }
 }
@@ -24,7 +24,7 @@ kotlin {
 tasks {
     withType<KotlinCompile>().configureEach {
         compilerOptions {
-            jvmTarget = JVM_21
+            jvmTarget = JVM_25
             apiVersion = KOTLIN_2_3
             languageVersion = KOTLIN_2_3
             allWarningsAsErrors = true
