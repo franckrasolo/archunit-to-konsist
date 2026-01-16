@@ -1,6 +1,6 @@
 # Architecture Rules in Kotlin: from ArchUnit to Konsist
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.21-blue.svg?logo=kotlin&style=flat&labelColor=30373d)](https://github.com/JetBrains/kotlin/releases/tag/v2.2.21)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.3.0-blue.svg?logo=kotlin&style=flat&labelColor=30373d)](https://github.com/JetBrains/kotlin/releases/tag/v2.3.0)
 [![Gradle](https://img.shields.io/badge/Gradle-9.3.0-blue.svg?logo=gradle&logoColor=3cb5c2&style=flat&labelColor=30373d)](https://docs.gradle.org/9.3.0/release-notes.html)
 [![ArchUnit](https://img.shields.io/badge/ArchUnit-1.4.1-blue.svg?logo=apachemaven&logoColor=d84531&style=flat&labelColor=30373d)](https://mvnrepository.com/artifact/com.tngtech.archunit/archunit/1.4.1)
 [![Konsist](https://img.shields.io/badge/Konsist-0.17.3-blue.svg?logo=apachemaven&logoColor=d84531&style=flat&labelColor=30373d)](https://mvnrepository.com/artifact/com.lemonappdev/konsist/0.17.3)

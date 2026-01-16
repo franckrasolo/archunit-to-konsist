@@ -1,7 +1,7 @@
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
-import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_2
+import org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_3
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -25,8 +25,8 @@ tasks {
     withType<KotlinCompile>().configureEach {
         compilerOptions {
             jvmTarget = JVM_21
-            apiVersion = KOTLIN_2_2
-            languageVersion = KOTLIN_2_2
+            apiVersion = KOTLIN_2_3
+            languageVersion = KOTLIN_2_3
             allWarningsAsErrors = true
             freeCompilerArgs.addAll("-Xjsr305=strict", "-progressive")
         }
